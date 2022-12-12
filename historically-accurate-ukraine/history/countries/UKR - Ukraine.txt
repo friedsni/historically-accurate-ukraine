@@ -1,0 +1,110 @@
+﻿capital = 202 #Kiev
+
+oob = "UKR_1936"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+	}
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+	}
+}
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		transport = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	}
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1917.11.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 63
+	democratic = 35
+	fascism = 1
+	communism = 1
+}
+
+create_country_leader = {
+	name = "Central Council"
+	desc = ""
+	picture = GFX_portrait_Kost_Levytsky
+	expire = "1953.3.1"
+	ideology = socialism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Nikita Sergeyevich Khrushchyov"
+	desc = ""
+	picture = GFX_portrait_Nikita_Sergeyevich_Khrushchyov
+	expire = "1953.3.1"
+	ideology = marxism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Stepan Bandera"
+	desc = ""
+	picture = GFX_portrait_Stepan_Bandera
+	expire = "1953.3.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Directorate of Ukraine"
+	desc = ""
+	picture = ""
+	expire = "1953.3.1"
+	ideology = oligarchism
+	traits = {
+		
+	}
+}
+
+
+
