@@ -4,4 +4,4 @@ tags={
 }
 name="historically-accurate-ukraine"
 supported_version="1.12.7"
-path="C:/Users/choice/Documents/Paradox Interactive/Hearts of Iron IV/mod/historically-accurate-ukraine"
+path="C:/Users/[USERNAME]/Documents/Paradox Interactive/Hearts of Iron IV/mod/historically-accurate-ukraine"
