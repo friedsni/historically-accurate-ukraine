@@ -7662,7 +7662,7 @@ country_event = { #Hand over sudetenland even if we're not czech
 				transfer_state = 74
 			}
 			UKR = {
-				set_state_controller = 73
+				transfer_state = 73
 				CZE = {
 					puppet = PREV
 					set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
