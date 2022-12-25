@@ -2777,6 +2777,13 @@ country_event = {
 		GER = { transfer_state = 69 }
 		74 = { add_core_of = GER }
 		GER = { transfer_state = 74 }
+		
+		UKR = { transfer_state = 73 }
+		UKR = {
+			CZE = {
+				puppet = UKR
+				set_autonomy = { target = UKR autonomy_state = autonomy_integrated_puppet }
+		}
 		set_country_flag = sudetenland_acquired
 		add_war_support = 0.1
 		add_stability = 0.05
@@ -7660,13 +7667,6 @@ country_event = { #Hand over sudetenland even if we're not czech
 			GER = {
 				transfer_state = 69
 				transfer_state = 74
-			}
-			UKR = {
-				transfer_state = 73
-				CZE = {
-					puppet = PREV
-					set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
-				}
 			}
 		}
 		hidden_effect = {
